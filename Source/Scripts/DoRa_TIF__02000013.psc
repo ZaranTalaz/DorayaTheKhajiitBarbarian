@@ -1,12 +1,12 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 1
-Scriptname DoRa_TIF__02004E16 Extends TopicInfo Hidden
+Scriptname DoRa_TIF__02000013 Extends TopicInfo Hidden
 
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-GetOwningQuest().SetStage(30)
+GetOwningQuest().SetStage(10)
 ;END CODE
 EndFunction
 ;END FRAGMENT
