@@ -20,8 +20,10 @@ Do'raya has the Light Foot, Barbarian (Rank 1), and Agile Defender (Rank 1) perk
 
 ## Tech
 
-- Do'raya uses the default follower system.
-- Do'raya will use your own body models and textures.
+- Uses the default follower system.
+- Is marked essential.
+- Can be married.
+- Uses your own body models and textures.
 
 ## Requirements
 
