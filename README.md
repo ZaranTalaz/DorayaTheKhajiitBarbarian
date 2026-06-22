@@ -27,5 +27,5 @@ Do'raya has the Light Foot, Barbarian (Rank 1), and Agile Defender (Rank 1) perk
 
 ## Requirements
 
-- [Fuz Ro D-oh - Silent Voice](https://www.nexusmods.com/skyrimspecialedition/mods/15109) for the unvoiced dialogue
+- [Fuz Ro D-oh - Silent Voice](https://www.nexusmods.com/skyrimspecialedition/mods/15109) for the unvoiced dialogue.
 - Either [Missing Follower Dialogue Edit](https://www.nexusmods.com/skyrimspecialedition/mods/56115) or [Relationship Dialogue Overhaul - Update and MCM](https://www.nexusmods.com/skyrimspecialedition/mods/44601) for the follower and marriage dialogue.
