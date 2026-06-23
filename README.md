@@ -1,5 +1,7 @@
 # Do'raya the Khajiit Barbarian
 
+[Nexus Mods download](https://www.nexusmods.com/skyrimspecialedition/mods/183343)
+
 A Khajiit follower for Skyrim.
 
 A barbarian from Anequina, Do'raya seeks to test her guile and ferocity on the savage lands of Skyrim.
