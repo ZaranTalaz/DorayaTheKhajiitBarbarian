@@ -7,9 +7,9 @@ Scriptname DoRa_QF_DorayaIntroQuest_02000019 Extends Quest Hidden
 LocationAlias Property Alias_Dungeon Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY MapMarker
+;BEGIN ALIAS PROPERTY QuestGiver
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_MapMarker Auto
+ReferenceAlias Property Alias_QuestGiver Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Boss
@@ -17,22 +17,10 @@ ReferenceAlias Property Alias_MapMarker Auto
 ReferenceAlias Property Alias_Boss Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY QuestGiver
+;BEGIN ALIAS PROPERTY MapMarker
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_QuestGiver Auto
+ReferenceAlias Property Alias_MapMarker Auto
 ;END ALIAS PROPERTY
-
-;BEGIN FRAGMENT Fragment_5
-Function Fragment_5()
-;BEGIN CODE
-Game.IncrementSkill("TwoHanded")
-Game.IncrementSkill("Sneak")
-Alias_QuestGiver.GetActorReference().SetRelationshipRank(Game.GetPlayer(), 1)
-
-stop()
-;END CODE
-EndFunction
-;END FRAGMENT
 
 ;BEGIN FRAGMENT Fragment_0
 Function Fragment_0()
@@ -48,6 +36,19 @@ Function Fragment_3()
 ;BEGIN CODE
 SetObjectiveCompleted(10,1)
 SetObjectiveDisplayed(20, 1)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_5
+Function Fragment_5()
+;BEGIN CODE
+Game.IncrementSkill("TwoHanded")
+Game.IncrementSkill("Sneak")
+Alias_QuestGiver.GetActorReference().SetRelationshipRank(Game.GetPlayer(), 1)
+
+CompleteAllObjectives()
+stop()
 ;END CODE
 EndFunction
 ;END FRAGMENT
